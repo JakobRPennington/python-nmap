@@ -43,7 +43,7 @@ class VersionCommand(Command):
 description = 'This is a python class to use nmap and access scan results from python3',
 
 # Get the long description
-with codecs.open(os.path.join(here, 'README.rst')) as f:
+with codecs.open(os.path.join(here, 'README.md')) as f:
     long_description = '\n{}'.format(f.read())
 
 # Get change log
